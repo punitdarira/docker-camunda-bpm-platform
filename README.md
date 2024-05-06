@@ -397,7 +397,7 @@ docker build -t camunda-bpm-platform \
   .
 ```
 ### Override MySQL and PostgreSQL driver versions. 
-By default, the driver versions are fetched from github.com/camunda/camunda-bpm-platform/blob/master/database/pom.xml. That can be overriden by passing `MYSQL_VERSION` and `POSTGRESQL_VERSION` build args
+By default, the driver versions are fetched from https://github.com/camunda/camunda-bpm-platform/blob/master/database/pom.xml. That can be overriden by passing `MYSQL_VERSION` and `POSTGRESQL_VERSION` build args
 
 ```
 docker build -t camunda-bpm-platform \
